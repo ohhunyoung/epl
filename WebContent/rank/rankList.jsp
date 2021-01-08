@@ -14,7 +14,7 @@
 <title>기록/순위</title>
 </head>
 <%
-	request.setCharacterEncoding("UTF-8");
+	request.setCharacterEncoding("UTF-8"); // 시험용
 	StatDAO dao = StatDAO.getInstance();
 	String sort = request.getParameter("sort");
 	if(sort == null) {
